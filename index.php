@@ -72,9 +72,11 @@
                                                 <a href="media-view.php?id=<?= $video['id']?>" class="btn btn-info btn-sm">View</a>
                                                 <a href="media-edit.php?id=<?= $video['id']?>" class="btn btn-success btn-sm">Edit</a>
                                                
+                                                <!--
                                                 <form action="load.php" method="POST" class="d-inline">
-                                                    <button type="submit" name="delete_media" value="<?=$video['id']; ?>" class="btn btn-danger btn-sm">Delete</button>
+                                                    <button type="submit" name="delete_media" value="<?//=$video['id']; ?>" class="btn btn-danger btn-sm">Delete</button>
                                                 </form>
+                                                -->
                                             </td>
                                         </tr>
                                             <?php
